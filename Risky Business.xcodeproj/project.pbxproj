@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFBE7C7315437FBA0001E033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE7C7215437FBA0001E033 /* UIKit.framework */; };
+		BFBE7C7515437FBA0001E033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE7C7415437FBA0001E033 /* Foundation.framework */; };
+		BFBE7C7715437FBA0001E033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE7C7615437FBA0001E033 /* CoreGraphics.framework */; };
+		BFBE7C7D15437FBB0001E033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBE7C7B15437FBB0001E033 /* InfoPlist.strings */; };
+		BFBE7C7F15437FBB0001E033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE7C7E15437FBB0001E033 /* main.m */; };
+		BFBE7C8315437FBB0001E033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE7C8215437FBB0001E033 /* AppDelegate.m */; };
+		BFBE7C8615437FBB0001E033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE7C8515437FBB0001E033 /* ViewController.m */; };
+		BFBE7C8915437FBB0001E033 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBE7C8715437FBB0001E033 /* ViewController.xib */; };
+		BFBE7C9115437FBD0001E033 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE7C9015437FBD0001E033 /* SenTestingKit.framework */; };
+		BFBE7C9215437FBD0001E033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE7C7215437FBA0001E033 /* UIKit.framework */; };
+		BFBE7C9315437FBD0001E033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE7C7415437FBA0001E033 /* Foundation.framework */; };
+		BFBE7C9B15437FBD0001E033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBE7C9915437FBD0001E033 /* InfoPlist.strings */; };
+		BFBE7C9E15437FBD0001E033 /* Risky_BusinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE7C9D15437FBD0001E033 /* Risky_BusinessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFBE7C9415437FBD0001E033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFBE7C6515437FBA0001E033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFBE7C6D15437FBA0001E033;
+			remoteInfo = "Risky Business";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFBE7C6E15437FBA0001E033 /* Risky Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Risky Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBE7C7215437FBA0001E033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFBE7C7415437FBA0001E033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFBE7C7615437FBA0001E033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFBE7C7A15437FBB0001E033 /* Risky Business-Info.plist */ = {isa = PBXFileReference; path = "Risky Business-Info.plist"; sourceTree = "<group>"; };
+		BFBE7C7C15437FBB0001E033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFBE7C7E15437FBB0001E033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFBE7C8015437FBB0001E033 /* Risky Business-Prefix.pch */ = {isa = PBXFileReference; path = "Risky Business-Prefix.pch"; sourceTree = "<group>"; };
+		BFBE7C8115437FBB0001E033 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFBE7C8215437FBB0001E033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFBE7C8415437FBB0001E033 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		BFBE7C8515437FBB0001E033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFBE7C8815437FBB0001E033 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BFBE7C8F15437FBD0001E033 /* Risky BusinessTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Risky BusinessTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBE7C9015437FBD0001E033 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFBE7C9815437FBD0001E033 /* Risky BusinessTests-Info.plist */ = {isa = PBXFileReference; path = "Risky BusinessTests-Info.plist"; sourceTree = "<group>"; };
+		BFBE7C9A15437FBD0001E033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFBE7C9C15437FBD0001E033 /* Risky_BusinessTests.h */ = {isa = PBXFileReference; path = Risky_BusinessTests.h; sourceTree = "<group>"; };
+		BFBE7C9D15437FBD0001E033 /* Risky_BusinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Risky_BusinessTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFBE7C6B15437FBA0001E033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE7C7315437FBA0001E033 /* UIKit.framework in Frameworks */,
+				BFBE7C7515437FBA0001E033 /* Foundation.framework in Frameworks */,
+				BFBE7C7715437FBA0001E033 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE7C8B15437FBD0001E033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE7C9115437FBD0001E033 /* SenTestingKit.framework in Frameworks */,
+				BFBE7C9215437FBD0001E033 /* UIKit.framework in Frameworks */,
+				BFBE7C9315437FBD0001E033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFBE7C6315437FBA0001E033 = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C7815437FBA0001E033 /* Risky Business */,
+				BFBE7C9615437FBD0001E033 /* Risky BusinessTests */,
+				BFBE7C7115437FBA0001E033 /* Frameworks */,
+				BFBE7C6F15437FBA0001E033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFBE7C6F15437FBA0001E033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C6E15437FBA0001E033 /* Risky Business.app */,
+				BFBE7C8F15437FBD0001E033 /* Risky BusinessTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFBE7C7115437FBA0001E033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C7215437FBA0001E033 /* UIKit.framework */,
+				BFBE7C7415437FBA0001E033 /* Foundation.framework */,
+				BFBE7C7615437FBA0001E033 /* CoreGraphics.framework */,
+				BFBE7C9015437FBD0001E033 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBE7C7815437FBA0001E033 /* Risky Business */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C8115437FBB0001E033 /* AppDelegate.h */,
+				BFBE7C8215437FBB0001E033 /* AppDelegate.m */,
+				BFBE7C8415437FBB0001E033 /* ViewController.h */,
+				BFBE7C8515437FBB0001E033 /* ViewController.m */,
+				BFBE7C8715437FBB0001E033 /* ViewController.xib */,
+				BFBE7C7915437FBB0001E033 /* Supporting Files */,
+			);
+			path = "Risky Business";
+			sourceTree = "<group>";
+		};
+		BFBE7C7915437FBB0001E033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C7A15437FBB0001E033 /* Risky Business-Info.plist */,
+				BFBE7C7B15437FBB0001E033 /* InfoPlist.strings */,
+				BFBE7C7E15437FBB0001E033 /* main.m */,
+				BFBE7C8015437FBB0001E033 /* Risky Business-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFBE7C9615437FBD0001E033 /* Risky BusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C9C15437FBD0001E033 /* Risky_BusinessTests.h */,
+				BFBE7C9D15437FBD0001E033 /* Risky_BusinessTests.m */,
+				BFBE7C9715437FBD0001E033 /* Supporting Files */,
+			);
+			path = "Risky BusinessTests";
+			sourceTree = "<group>";
+		};
+		BFBE7C9715437FBD0001E033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE7C9815437FBD0001E033 /* Risky BusinessTests-Info.plist */,
+				BFBE7C9915437FBD0001E033 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFBE7C6D15437FBA0001E033 /* Risky Business */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBE7CA115437FBD0001E033 /* Build configuration list for PBXNativeTarget "Risky Business" */;
+			buildPhases = (
+				BFBE7C6A15437FBA0001E033 /* Sources */,
+				BFBE7C6B15437FBA0001E033 /* Frameworks */,
+				BFBE7C6C15437FBA0001E033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Risky Business";
+			productName = "Risky Business";
+			productReference = BFBE7C6E15437FBA0001E033 /* Risky Business.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFBE7C8E15437FBD0001E033 /* Risky BusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBE7CA415437FBD0001E033 /* Build configuration list for PBXNativeTarget "Risky BusinessTests" */;
+			buildPhases = (
+				BFBE7C8A15437FBD0001E033 /* Sources */,
+				BFBE7C8B15437FBD0001E033 /* Frameworks */,
+				BFBE7C8C15437FBD0001E033 /* Resources */,
+				BFBE7C8D15437FBD0001E033 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFBE7C9515437FBD0001E033 /* PBXTargetDependency */,
+			);
+			name = "Risky BusinessTests";
+			productName = "Risky BusinessTests";
+			productReference = BFBE7C8F15437FBD0001E033 /* Risky BusinessTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFBE7C6515437FBA0001E033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BFBE7C6815437FBA0001E033 /* Build configuration list for PBXProject "Risky Business" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFBE7C6315437FBA0001E033;
+			productRefGroup = BFBE7C6F15437FBA0001E033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBE7C6D15437FBA0001E033 /* Risky Business */,
+				BFBE7C8E15437FBD0001E033 /* Risky BusinessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBE7C6C15437FBA0001E033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE7C7D15437FBB0001E033 /* InfoPlist.strings in Resources */,
+				BFBE7C8915437FBB0001E033 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE7C8C15437FBD0001E033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE7C9B15437FBD0001E033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFBE7C8D15437FBD0001E033 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBE7C6A15437FBA0001E033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE7C7F15437FBB0001E033 /* main.m in Sources */,
+				BFBE7C8315437FBB0001E033 /* AppDelegate.m in Sources */,
+				BFBE7C8615437FBB0001E033 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE7C8A15437FBD0001E033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBE7C9E15437FBD0001E033 /* Risky_BusinessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFBE7C9515437FBD0001E033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFBE7C6D15437FBA0001E033 /* Risky Business */;
+			targetProxy = BFBE7C9415437FBD0001E033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFBE7C7B15437FBB0001E033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBE7C7C15437FBB0001E033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFBE7C8715437FBB0001E033 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBE7C8815437FBB0001E033 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		BFBE7C9915437FBD0001E033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBE7C9A15437FBD0001E033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFBE7C9F15437FBD0001E033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFBE7CA015437FBD0001E033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFBE7CA215437FBD0001E033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Risky Business/Risky Business-Prefix.pch";
+				INFOPLIST_FILE = "Risky Business/Risky Business-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFBE7CA315437FBD0001E033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Risky Business/Risky Business-Prefix.pch";
+				INFOPLIST_FILE = "Risky Business/Risky Business-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFBE7CA515437FBD0001E033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Risky Business.app/Risky Business";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Risky Business/Risky Business-Prefix.pch";
+				INFOPLIST_FILE = "Risky BusinessTests/Risky BusinessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BFBE7CA615437FBD0001E033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Risky Business.app/Risky Business";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Risky Business/Risky Business-Prefix.pch";
+				INFOPLIST_FILE = "Risky BusinessTests/Risky BusinessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFBE7C6815437FBA0001E033 /* Build configuration list for PBXProject "Risky Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBE7C9F15437FBD0001E033 /* Debug */,
+				BFBE7CA015437FBD0001E033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBE7CA115437FBD0001E033 /* Build configuration list for PBXNativeTarget "Risky Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBE7CA215437FBD0001E033 /* Debug */,
+				BFBE7CA315437FBD0001E033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFBE7CA415437FBD0001E033 /* Build configuration list for PBXNativeTarget "Risky BusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBE7CA515437FBD0001E033 /* Debug */,
+				BFBE7CA615437FBD0001E033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFBE7C6515437FBA0001E033 /* Project object */;
+}
