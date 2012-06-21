@@ -169,7 +169,7 @@
 		E948E3DA15614DF4005816D1 /* EnemyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EnemyAnnotation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E948E3DB15614DF4005816D1 /* EnemyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyAnnotation.m; sourceTree = "<group>"; };
 		E97FA024156541F100ABAEC2 /* fogMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fogMask.png; sourceTree = "<group>"; };
-		E9A795B01592D04500D94384 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E9A795B01592D04500D94384 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = "Risky Business/README"; sourceTree = "<group>"; };
 		E9B5069D1564691000694210 /* Fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fog.png; sourceTree = "<group>"; };
 		E9EB7420156AF5A900D3C154 /* FogOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FogOverlay.h; sourceTree = "<group>"; };
 		E9EB7421156AF5A900D3C154 /* FogOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FogOverlay.m; sourceTree = "<group>"; };
@@ -265,6 +265,7 @@
 		BFBE7C6315437FBA0001E033 = {
 			isa = PBXGroup;
 			children = (
+				E9A795B01592D04500D94384 /* README */,
 				BFBE7C7815437FBA0001E033 /* Risky Business */,
 				BFBE7C9615437FBD0001E033 /* Risky BusinessTests */,
 				BFBE7C7115437FBA0001E033 /* Frameworks */,
@@ -310,7 +311,6 @@
 				BFBE7C8715437FBB0001E033 /* ViewController.xib */,
 				BFBE7CB5154383860001E033 /* Views */,
 				BFBE7C7915437FBB0001E033 /* Supporting Files */,
-				E9A795B01592D04500D94384 /* README */,
 			);
 			path = "Risky Business";
 			sourceTree = "<group>";
