@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  Risky Business
 //
-//  Created by Christian Weigandt on 4/21/12.
+//  Created by Do It Live, CW/KS/TL, on 4/21/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 

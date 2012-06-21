@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Risky Business
 //
-//  Created by Christian Weigandt on 4/21/12.
+//  Created by Do It Live, CW/KS/TL, on 4/21/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -30,6 +30,23 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSArray *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES);
+    NSString *documentsDirectory = [path objectAtIndex:0];
+    NSString* dataFilePath = [documentsDirectory stringByAppendingPathComponent:@"DBID.txt"];
+    NSFileManager *defFM = [NSFileManager defaultManager];
+    [defFM createFileAtPath:dataFilePath contents:nil attributes:nil];
+ 
+    
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    // Override point for customization after application launch.
+    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
+    BZFoursquare *foursquare = self.viewController.menuViewInst.foursquare;
+    return [foursquare handleOpenURL:url];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
